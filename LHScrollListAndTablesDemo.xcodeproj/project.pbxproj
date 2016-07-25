@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA5AD1A1C340ED30000B093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD191C340ED30000B093 /* main.m */; };
+		FAA5AD1D1C340ED30000B093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD1C1C340ED30000B093 /* AppDelegate.m */; };
+		FAA5AD201C340ED30000B093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD1F1C340ED30000B093 /* ViewController.m */; };
+		FAA5AD251C340ED40000B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5AD241C340ED30000B093 /* Assets.xcassets */; };
+		FAA5AD331C340ED40000B093 /* LHScrollListAndTablesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD321C340ED40000B093 /* LHScrollListAndTablesDemoTests.m */; };
+		FAA5AD3E1C340ED40000B093 /* LHScrollListAndTablesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD3D1C340ED40000B093 /* LHScrollListAndTablesDemoUITests.m */; };
+		FAA5AD4E1C3411170000B093 /* LHScrollList.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD4D1C3411170000B093 /* LHScrollList.m */; };
+		FAA5AD591C3AC48B0000B093 /* LHPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5AD581C3AC48B0000B093 /* LHPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA5AD2F1C340ED40000B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5AD0D1C340ED30000B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5AD141C340ED30000B093;
+			remoteInfo = LHScrollListAndTablesDemo;
+		};
+		FAA5AD3A1C340ED40000B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5AD0D1C340ED30000B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5AD141C340ED30000B093;
+			remoteInfo = LHScrollListAndTablesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA5AD151C340ED30000B093 /* LHScrollListAndTablesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHScrollListAndTablesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5AD191C340ED30000B093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA5AD1B1C340ED30000B093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA5AD1C1C340ED30000B093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA5AD1E1C340ED30000B093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAA5AD1F1C340ED30000B093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAA5AD241C340ED30000B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA5AD291C340ED40000B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5AD2E1C340ED40000B093 /* LHScrollListAndTablesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHScrollListAndTablesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5AD321C340ED40000B093 /* LHScrollListAndTablesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHScrollListAndTablesDemoTests.m; sourceTree = "<group>"; };
+		FAA5AD341C340ED40000B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5AD391C340ED40000B093 /* LHScrollListAndTablesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHScrollListAndTablesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5AD3D1C340ED40000B093 /* LHScrollListAndTablesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHScrollListAndTablesDemoUITests.m; sourceTree = "<group>"; };
+		FAA5AD3F1C340ED40000B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5AD4C1C3411170000B093 /* LHScrollList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHScrollList.h; path = view/LHScrollList.h; sourceTree = "<group>"; };
+		FAA5AD4D1C3411170000B093 /* LHScrollList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHScrollList.m; path = view/LHScrollList.m; sourceTree = "<group>"; };
+		FAA5AD571C3AC48B0000B093 /* LHPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHPageView.h; path = view/LHPageView.h; sourceTree = "<group>"; };
+		FAA5AD581C3AC48B0000B093 /* LHPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHPageView.m; path = view/LHPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5AD121C340ED30000B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5AD2B1C340ED40000B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5AD361C340ED40000B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA5AD0C1C340ED30000B093 = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD171C340ED30000B093 /* LHScrollListAndTablesDemo */,
+				FAA5AD311C340ED40000B093 /* LHScrollListAndTablesDemoTests */,
+				FAA5AD3C1C340ED40000B093 /* LHScrollListAndTablesDemoUITests */,
+				FAA5AD161C340ED30000B093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5AD161C340ED30000B093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD151C340ED30000B093 /* LHScrollListAndTablesDemo.app */,
+				FAA5AD2E1C340ED40000B093 /* LHScrollListAndTablesDemoTests.xctest */,
+				FAA5AD391C340ED40000B093 /* LHScrollListAndTablesDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5AD171C340ED30000B093 /* LHScrollListAndTablesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD4B1C3410B40000B093 /* view */,
+				FAA5AD1B1C340ED30000B093 /* AppDelegate.h */,
+				FAA5AD1C1C340ED30000B093 /* AppDelegate.m */,
+				FAA5AD1E1C340ED30000B093 /* ViewController.h */,
+				FAA5AD1F1C340ED30000B093 /* ViewController.m */,
+				FAA5AD241C340ED30000B093 /* Assets.xcassets */,
+				FAA5AD291C340ED40000B093 /* Info.plist */,
+				FAA5AD181C340ED30000B093 /* Supporting Files */,
+			);
+			path = LHScrollListAndTablesDemo;
+			sourceTree = "<group>";
+		};
+		FAA5AD181C340ED30000B093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD191C340ED30000B093 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA5AD311C340ED40000B093 /* LHScrollListAndTablesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD321C340ED40000B093 /* LHScrollListAndTablesDemoTests.m */,
+				FAA5AD341C340ED40000B093 /* Info.plist */,
+			);
+			path = LHScrollListAndTablesDemoTests;
+			sourceTree = "<group>";
+		};
+		FAA5AD3C1C340ED40000B093 /* LHScrollListAndTablesDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD3D1C340ED40000B093 /* LHScrollListAndTablesDemoUITests.m */,
+				FAA5AD3F1C340ED40000B093 /* Info.plist */,
+			);
+			path = LHScrollListAndTablesDemoUITests;
+			sourceTree = "<group>";
+		};
+		FAA5AD4B1C3410B40000B093 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5AD4C1C3411170000B093 /* LHScrollList.h */,
+				FAA5AD4D1C3411170000B093 /* LHScrollList.m */,
+				FAA5AD571C3AC48B0000B093 /* LHPageView.h */,
+				FAA5AD581C3AC48B0000B093 /* LHPageView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5AD141C340ED30000B093 /* LHScrollListAndTablesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5AD421C340ED40000B093 /* Build configuration list for PBXNativeTarget "LHScrollListAndTablesDemo" */;
+			buildPhases = (
+				FAA5AD111C340ED30000B093 /* Sources */,
+				FAA5AD121C340ED30000B093 /* Frameworks */,
+				FAA5AD131C340ED30000B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHScrollListAndTablesDemo;
+			productName = LHScrollListAndTablesDemo;
+			productReference = FAA5AD151C340ED30000B093 /* LHScrollListAndTablesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA5AD2D1C340ED40000B093 /* LHScrollListAndTablesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5AD451C340ED40000B093 /* Build configuration list for PBXNativeTarget "LHScrollListAndTablesDemoTests" */;
+			buildPhases = (
+				FAA5AD2A1C340ED40000B093 /* Sources */,
+				FAA5AD2B1C340ED40000B093 /* Frameworks */,
+				FAA5AD2C1C340ED40000B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5AD301C340ED40000B093 /* PBXTargetDependency */,
+			);
+			name = LHScrollListAndTablesDemoTests;
+			productName = LHScrollListAndTablesDemoTests;
+			productReference = FAA5AD2E1C340ED40000B093 /* LHScrollListAndTablesDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA5AD381C340ED40000B093 /* LHScrollListAndTablesDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5AD481C340ED40000B093 /* Build configuration list for PBXNativeTarget "LHScrollListAndTablesDemoUITests" */;
+			buildPhases = (
+				FAA5AD351C340ED40000B093 /* Sources */,
+				FAA5AD361C340ED40000B093 /* Frameworks */,
+				FAA5AD371C340ED40000B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5AD3B1C340ED40000B093 /* PBXTargetDependency */,
+			);
+			name = LHScrollListAndTablesDemoUITests;
+			productName = LHScrollListAndTablesDemoUITests;
+			productReference = FAA5AD391C340ED40000B093 /* LHScrollListAndTablesDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5AD0D1C340ED30000B093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈汉鑫";
+				TargetAttributes = {
+					FAA5AD141C340ED30000B093 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SLGKS22CDA;
+					};
+					FAA5AD2D1C340ED40000B093 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SLGKS22CDA;
+						TestTargetID = FAA5AD141C340ED30000B093;
+					};
+					FAA5AD381C340ED40000B093 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SLGKS22CDA;
+						TestTargetID = FAA5AD141C340ED30000B093;
+					};
+				};
+			};
+			buildConfigurationList = FAA5AD101C340ED30000B093 /* Build configuration list for PBXProject "LHScrollListAndTablesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5AD0C1C340ED30000B093;
+			productRefGroup = FAA5AD161C340ED30000B093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5AD141C340ED30000B093 /* LHScrollListAndTablesDemo */,
+				FAA5AD2D1C340ED40000B093 /* LHScrollListAndTablesDemoTests */,
+				FAA5AD381C340ED40000B093 /* LHScrollListAndTablesDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5AD131C340ED30000B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5AD251C340ED40000B093 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5AD2C1C340ED40000B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5AD371C340ED40000B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5AD111C340ED30000B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5AD591C3AC48B0000B093 /* LHPageView.m in Sources */,
+				FAA5AD4E1C3411170000B093 /* LHScrollList.m in Sources */,
+				FAA5AD201C340ED30000B093 /* ViewController.m in Sources */,
+				FAA5AD1D1C340ED30000B093 /* AppDelegate.m in Sources */,
+				FAA5AD1A1C340ED30000B093 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5AD2A1C340ED40000B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5AD331C340ED40000B093 /* LHScrollListAndTablesDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5AD351C340ED40000B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5AD3E1C340ED40000B093 /* LHScrollListAndTablesDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA5AD301C340ED40000B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5AD141C340ED30000B093 /* LHScrollListAndTablesDemo */;
+			targetProxy = FAA5AD2F1C340ED40000B093 /* PBXContainerItemProxy */;
+		};
+		FAA5AD3B1C340ED40000B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5AD141C340ED30000B093 /* LHScrollListAndTablesDemo */;
+			targetProxy = FAA5AD3A1C340ED40000B093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5AD401C340ED40000B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA5AD411C340ED40000B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5AD431C340ED40000B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHScrollListAndTablesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.LHScrollListAndTablesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA5AD441C340ED40000B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHScrollListAndTablesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.LHScrollListAndTablesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA5AD461C340ED40000B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LHScrollListAndTablesDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.LHScrollListAndTablesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHScrollListAndTablesDemo.app/LHScrollListAndTablesDemo";
+			};
+			name = Debug;
+		};
+		FAA5AD471C340ED40000B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LHScrollListAndTablesDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.LHScrollListAndTablesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHScrollListAndTablesDemo.app/LHScrollListAndTablesDemo";
+			};
+			name = Release;
+		};
+		FAA5AD491C340ED40000B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LHScrollListAndTablesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.LHScrollListAndTablesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHScrollListAndTablesDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAA5AD4A1C340ED40000B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LHScrollListAndTablesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.LHScrollListAndTablesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHScrollListAndTablesDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5AD101C340ED30000B093 /* Build configuration list for PBXProject "LHScrollListAndTablesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5AD401C340ED40000B093 /* Debug */,
+				FAA5AD411C340ED40000B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5AD421C340ED40000B093 /* Build configuration list for PBXNativeTarget "LHScrollListAndTablesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5AD431C340ED40000B093 /* Debug */,
+				FAA5AD441C340ED40000B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5AD451C340ED40000B093 /* Build configuration list for PBXNativeTarget "LHScrollListAndTablesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5AD461C340ED40000B093 /* Debug */,
+				FAA5AD471C340ED40000B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5AD481C340ED40000B093 /* Build configuration list for PBXNativeTarget "LHScrollListAndTablesDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5AD491C340ED40000B093 /* Debug */,
+				FAA5AD4A1C340ED40000B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA5AD0D1C340ED30000B093 /* Project object */;
+}
